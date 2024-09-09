@@ -14,6 +14,10 @@ This script is designed to help you set up basic DDoS protection for your FiveM 
 ## Requirements
 - A server running Linux (Debian-based systems like Ubuntu recommended)
 - Python 3 installed
+```bash
+IF NOT INSTALLED RUN:
+apt-get install python3
+```
 
 ## How to Use
 
@@ -23,13 +27,13 @@ Clone or download the script to your server.
 ### Step 2: Make the Script Executable
 Run the following command to make the script executable:
 ```bash
-chmod +x ddos_protect.py
+chmod +x main.py
 ```
 
 ### Step 3: Run the Script
 Execute the script with:
 ```bash
-sudo python3 ddos_protect.py
+sudo python3 main.py
 ```
 
 ### Step 4: Follow the Prompts
